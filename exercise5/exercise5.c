@@ -1,6 +1,17 @@
 
-/* Here, you must include the required libraries */
+#include <stdio.h>
 
 void main(){
-	/* Here, you must write the source code */
+	int dividend, divisor, quotient, remainder;
+	
+	printf("Dividend: ");
+	scanf("%d", &dividend);
+	
+	printf("Divisor: ");
+	scanf("%d", &divisor);
+	
+	quotient = dividend / divisor;
+	remainder = dividend - divisor * quotient;
+	
+	printf("\n\nQuotient: %d\nRemainder: %d", quotient, remainder);
 }
