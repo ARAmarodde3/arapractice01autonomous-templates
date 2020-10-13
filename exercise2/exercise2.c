@@ -1,6 +1,17 @@
 
-/* Here, you must include the required libraries */
+#include <stdio.h>
+#include <ctype.h>
+#include <stdlib.h>
 
 void main(){
-	/* Here, you must write the source code */
+	char letter;
+	
+	printf("Please, enter a lowecase character: ");
+	scanf ("%c", &letter);
+	
+	letter = toupper(letter);
+
+    printf("The uppercase character is %c.\n\n", letter);
+    system("pause");
+	
 }
