@@ -11,7 +11,7 @@ void main(){
 	
 	letter = toupper(letter);
 
-    printf("The uppercase character is %c.\n\n", letter);
+    printf("The uppercase character is: %c.\n\n", letter);
     system("pause");
 	
 }
