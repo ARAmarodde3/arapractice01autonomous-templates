@@ -1,5 +1,6 @@
 
 #include <stdio.h>
+#include <stdlib.h>
 
 void main(){
 	int age, secret_number, magic_number, x;
@@ -11,5 +12,7 @@ void main(){
 	
 	age = ((magic_number + secret_number * 9) / 10);
 	
-	printf("Your afe is %d y the secret number is %d.", age, secret_number);
+	printf("Your afe is %d y the secret number is %d.\n\n", age, secret_number);
+	
+	system("pause");
 }
